@@ -1,0 +1,18 @@
+#Table
+{
+
+vertical-align:top;
+width:30%;
+background-color: rgb(204,204,204);
+}
+
+#Contenu
+{
+width:60%;
+background-color: rgb(204,204,204);
+}
+
+section
+{
+display: inline-block;
+}
