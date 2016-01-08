@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-	    <link rel="stylesheet" type="text/css" href="projet.css">
+	    <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="telephone.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px)" href="projet.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 799px)" href="telephoneplusgrand.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-width: 1279px)" href="EntreGrandTelephoneEtEcran.css">
     <title>Titre</title>
   </head>
 <body>
@@ -12,6 +15,7 @@
 	</header>
 	
 	<section id="Table">
+	<section id="Table1">
 	<h2> Table des matières </h2>
 		<nav>
 			<ul>
@@ -21,35 +25,44 @@
 				<li><a href="Autre.html" style="color: #FFFFFF"> Matières enseignées </a></li>
 			</ul>
 		</nav>
+		</section>
+		<section id="Table2">
+		<h2>Sommaire de la page</h2>
+		<nav>
+			<ul>
+				<li> <a href="#UE11" style="color: #FFFFFF">UE11</a> </li>
+				<li> <a href="#UE12" style="color: #FFFFFF">UE12</a> </li>
+				<li> <a href="#TableauMatiere" style="color: #FFFFFF">Tableau des Matières</a> </li>
+
+			</ul>
+		</nav>
+		</section>
 	</section>
 	<section id="Contenu">
-		<h2>Les matières enseignées au semestre 1</h2>
+		<h2>Matières enseignées au semestre 1</h2>
 			<h3>Par Unité d’enseignement (UE)</h3>
 			<section id="UE11">
 				<p> UE11 : 17 ECTS</p>
-					<nav>
-						<ul>
-							<li>Bases de la programmation</li>
-							<li>Systèmes informatiques</li>
-							<li>Bases de données</li>
-							<li>Développement web</li>
-						</ul>
-					</nav>
-					</section>
-					<section id="UE12">
+					<ul>
+						<li>Bases de la programmation</li>
+						<li>Systèmes informatiques</li>
+						<li>Bases de données</li>
+						<li>Développement web</li>
+					</ul>
+			</section>
+			<section id="UE12">
 				<p> UE12 : 13 ECTS</p>
-					<nav>
-						<ul>
-							<li>Maths</li>
-							<li>Economie et gestion</li>
-							<li>Expression et communication</li>
-							<li>Langues</li>
-						</ul>
-					</nav>
-					</section>
+					<ul>
+						<li>Maths</li>
+						<li>Economie et gestion</li>
+						<li>Expression et communication</li>
+						<li>Langues</li>
+					</ul>
+			</section>
+			<section id="TableauMatiere">
 				<table>
 					<tr>
-					<td colspan="6"> Semestre 1</td>
+						<td colspan="6"> Semestre 1</td>
 					</tr>
 					<tr>
 						<th>UE</th><th>Matières</th> <th>Coefficients</th> <th>CM</th> <th>TD</th> <th>TP</th>
@@ -94,6 +107,7 @@
 						<td>PPP - Connaître le monde professionnel</td> <td>1</td> <td>0</td> <td>12</td> <td>8</td>
 					</tr>
 				</table>
+			</section>
 	</section>
   </body>
  </html>

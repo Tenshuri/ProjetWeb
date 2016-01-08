@@ -1,47 +1,36 @@
-@media screen and (min-width: 1280px)
+@media screen and (max-width: 360px)
 {
     #Table
 {
 background-color:#0B0B61;
-vertical-align:top;
-width:15%;
-padding-bottom:25em;
+vertical-align:center;
 margin-left:0.5em;
 padding-left:1em;
 border-radius:2em;
 padding-right:2em;
-
+display:inline-block;
+margin-bottom:1em;
 }
 
 #Contenu
 {
-width:70%;
-margin-left: 1em;
 padding:1em; 
 background-color:#6E56DA;
-padding:2em;
 border-radius:2em;
 font-family:Calibri;
-}
-
-#Formu #Contenu 
-{
-padding:0em 5em 0em 5em;
-margin-left:5em;
 }
 
 section
 {
 display: inline-block;
-
 }
 
 body
 {
 background-image:url("Frost.png");
 color : White;
-font-size:14pt;
-line-height:20pt;
+font-size:10pt;
+line-height:15pt;
 }
 
 table
@@ -51,7 +40,6 @@ background: #333333;
 border: 0.5em solid #333333;
 border-radius: 1em;
 font-family:sans-serif;
-margin-left:7em;
 }
 
 table tr td
@@ -74,7 +62,6 @@ margin-bottom:1em;
 background-color:#7517B8;
 padding:1em;
 border-radius:1em;
-width:35%;
 display:inline-block;
 } 
 
@@ -82,9 +69,7 @@ display:inline-block;
 {background-color:#6C3D76;
 padding:1em;
 border-radius:1em;
-width:30%;
-display:inline-block;
-margin-left:5em;
+margin-bottom:1em;
 }
 
 #Regle1
@@ -105,12 +90,12 @@ border-radius:1em;
 {
 border:2px solid black;
 padding:0.5em;
-width:30%;
-vertical-align:top;
 }
 #profil
-{width : 50%;
-margin-left:0em;}
+{width : 30%;
+}
+#profil img
+{width:100%;}
 
 #ParcoursProjet
 {
@@ -121,35 +106,33 @@ padding:0.5em;
 
 header
 {text-align:center;
-font-size:25pt;}
+font-size:15pt;
+line-height:40px;
+}
 
 #UE11
 {border:5px ridge black;
 padding:1em;
 margin:1em;
-width:20%;}
+}
 
 #UE12
 {border:5px ridge black;
 padding:1em;
 margin:1em;
-margin-left:15em;
 display:inline-block;
 vertical-align:top;
-width:20%;}
+}
 
 #Contenu h2
 {
 text-align:center;
-color:black;}
+color:black;
+line-height:15px;}
 
-#LogoIut 
+#LogoIut
 {vertical-align:top,center;
-margin-left:16em;
-width:100%
 }
-#LogoIut img
-{width:50%;}
 
 #Regle1 h4,#Regle2 h4
 {color:yellow;}
@@ -159,5 +142,4 @@ footer
 padding-left:2em;}
 }
 
-
-
+}

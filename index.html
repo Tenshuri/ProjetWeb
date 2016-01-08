@@ -2,16 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-	    <link rel="stylesheet" type="text/css" href="projet.css">
+	    <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="telephone.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px)" href="projet.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 799px)" href="telephoneplusgrand.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-width: 1279px)" href="EntreGrandTelephoneEtEcran.css">
     <title>Titre</title>
   </head>
-<body>
+  <body>
 
 	<header>
 		<h1><cite> Site factice pour le module M1105-1 Web </cite></h1>
 	</header>
 	
 	<section id="Table">
+	<section id="Table1">
 	<h2> Table des matières </h2>
 		<nav>
 			<ul>
@@ -21,56 +25,66 @@
 				<li><a href="Autre.html" style="color: #FFFFFF"> Matières enseignées </a></li>
 			</ul>
 		</nav>
+		</section>
+		<section id="Table2">
+		<h2>Sommaire de la page</h2>
+		<nav>
+			<ul>
+				<li> <a href="#Informations" style="color: #FFFFFF">Informations</a> </li>
+				<li> <a href="#Respect" style="color: #FFFFFF">Respect</a> </li>
+				<li> <a href="#Regle1" style="color: #FFFFFF">Règle en Or n°1 </a> </li>
+				<li> <a href="#Regle2" style="color: #FFFFFF">Règle en Or n°2</a> </li>
+			</ul>
+		</nav>
+		</section>
+				
 	</section>
     <section id="Contenu">
 		<h2>Bienvenue sur le Site Factice pour le Projet Web.</h2>
-		<img src="iut.png" alt="Logo Iut">
-		<section id="Informations">
-		<h3>Informations concernant l'iut : </h3>
-			<h4>À qui s’adresser ? </h4>
-				<h5>Secrétariat pour : </h5>
-					<nav>
-						<ul>
-							<li>Questions administratives, inscriptions (tutorat...), </li>
-							<li>Déclarations et justifications d’absence </li>
-						</ul>
-					</nav>
-					<p>Christine Rigottard
-					   bureau RDC bât. info
-					   christine.rigottard@univ-lyon1.fr
-					   Tél. 04 72 69 21 82</p>
+			<section id="LogoIut">
+				<img src="iut.png" alt="Logo Iut">
+			</section>
+			<section id="Informations">
+				<h3>Informations concernant l'iut : </h3>
+					<h4>À qui s’adresser ? </h4>
+						<h5>Secrétariat pour : </h5>
+							<nav>
+								<ul>
+									<li>Questions administratives, inscriptions (tutorat...), </li>
+									<li>Déclarations et justifications d’absence </li>
+								</ul>
+							</nav>
+							<p> Christine Rigottard
+								bureau RDC bât. info
+								christine.rigottard@univ-lyon1.fr
+								Tél. 04 72 69 21 82</p>
 					   
-				<h5>Direction des études pour : </h5>
-					<nav>
-						<ul>
-							<li>Vie scolaire </li>
-							<li>Problèmes personnels</li>
-						</ul>
-					</nav>
-					<p>Isabelle Dautraix / Isabelle Gonçalves
-					   bureau 2ème étage bât. info / RDC bât. info
-					   iutdoua.info.dut1@univ-lyon1.fr</p>
-		</section>
+						<h5>Direction des études pour : </h5>
+							<ul>
+								<li>Vie scolaire </li>
+								<li>Problèmes personnels</li>
+							</ul>
+							<p> Isabelle Dautraix / Isabelle Gonçalves
+								bureau 2ème étage bât. info / RDC bât. info
+								iutdoua.info.dut1@univ-lyon1.fr</p>
+			</section>
 		
-		<section id="Respect">
-		<h3> Respect </h3>
-			<nav>
-				<ul>
-					<li>les personnes : personnels et usagers (par ex, en cours, vous êtes là pour TRAVAILLER) </li>
-					<li>les lieux et le matériel (par ex, il est interdit de manger et boire dans les salles) </li>
-					<li>le règlement intérieur, la charte informatique ... </li>
-				</ul>
-			</nav>
-			<p>En particulier, l’IUT n’est pas un terrain de jeux en
-			   réseau et le téléphone portable doit être en position
-			   éteinte pendant les enseignements, les examens et au
-			   sein des bibliothèques et salles de travail (article 39 et
-			   42 du réglement intérieur).</p>
-			   </section>
-			   <section id="Regle1">
+			<section id="Respect">
+				<h3>Respect </h3>
+						<ul>
+							<li>les personnes : personnels et usagers (par ex, en cours, vous êtes là pour TRAVAILLER) </li>
+							<li>les lieux et le matériel (par ex, il est interdit de manger et boire dans les salles) </li>
+							<li>le règlement intérieur, la charte informatique ... </li>
+						</ul>
+					<p> En particulier, l’IUT n’est pas un terrain de jeux en
+						réseau et le téléphone portable doit être en position
+						éteinte pendant les enseignements, les examens et au
+						sein des bibliothèques et salles de travail (article 39 et
+						42 du réglement intérieur).</p>
+			</section>
+			<section id="Regle1">
 				<h4>Une règle d’or</h4>
 				  <p>Article 49 du réglement intérieur. Une assiduité irréprochable</p>
-					<nav>
 						<ul>
 							<li>LA PRÉSENCE À TOUTES LES ACTIVITÉS PÉDAGOGIQUES ET PÉRIODES EN MILIEU PROFESSIONNEL EST OBLIGATOIRE </li>
 							<li>Toutes les absences doivent être signalées par
@@ -89,12 +103,10 @@
 								retour de mail que vous serez présent. A priori, il n’en
 								proposera pas d’autre.</li>
 						</ul>
-					</nav>
-					</section>
-					<section id="Regle2">
+			</section>
+			<section id="Regle2">
 				<h4>Une deuxième règle d’or</h4>
 				  <p>Article 49 du réglement intérieur. Une ponctualité et un comportement irréprochables</p>
-					<nav>
 						<ul>
 							<li>A la suite d’un retard (quelle qu’en soit la durée),
 								l’enseignant peut accepter ou refuser l’accès de
@@ -103,9 +115,8 @@
 							<li>Tout étudiant exclu d’une séance pédagogique peut
 								voir cette exclusion comptée comme une absence injustifiée.</li>
 						</ul>
-					</nav>
 				</section>
 		
 	</section>
-  </body>
+   </body>
  </html>

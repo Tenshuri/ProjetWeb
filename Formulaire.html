@@ -2,84 +2,97 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-	    <link rel="stylesheet" type="text/css" href="projet.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="telephone.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px)" href="projet.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 799px)" href="telephoneplusgrand.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-width: 1279px)" href="EntreGrandTelephoneEtEcran.css">
     <title>Titre</title>
   </head>
-<body>
+  <body>
 	
 	<header>
 		<h1><cite> Site factice pour le module M1105-1 Web </cite></h1>
 	</header>
 	
 	<section id="Table">
-	<h2> Table des matières </h2>
-		<nav>
-			<ul>
-				<li><a href="index.html" style="color: #FFFFFF"> Accueil </a></li>
-				<li><a href="Auteur.html" style="color: #FFFFFF"> A propos de l'auteur </a></li>
-				<li><a href="Formulaire.html" style="color: #FFFFFF"> Formulaire </a></li>
-				<li><a href="Autre.html" style="color: #FFFFFF"> Matières enseignées </a></li>
-			</ul>
-		</nav>
+	<section id="Table1F">
+		<h2> Table des matières </h2>
+			<nav>
+				<ul>
+					<li><a href="index.html" style="color: #FFFFFF"> Accueil </a></li>
+					<li><a href="Auteur.html" style="color: #FFFFFF"> A propos de l'auteur </a></li>
+					<li><a href="Formulaire.html" style="color: #FFFFFF"> Formulaire </a></li>
+					<li><a href="Autre.html" style="color: #FFFFFF"> Matières enseignées </a></li>
+				</ul>
+			</nav>
 	</section>
-	
+	</section><section id="Formu">
 	<section id="Contenu">
 	
 		<FORM action="http://champin.net/enseignement/intro-web/_static/formproc/debug" method="GET">
 			<fieldset><legend>Se connecter</legend>
-				<label>Nom :
-					<input type="text" name="pseudo" size="20" maxlength="20"></label>
+				<label for="pseudo"> Nom :</label>
+					<input type="text" id="pseudo" name="pseudo" size="20" maxlength="20">
+					
+				<p></p>	
 				<label for="motdepasse">Mot de passe :</label>
 					<input type="password" id="motdepasse" name="motdepasse" size="20" maxlength="20">
-				</fieldset>
-		<fieldset><legend>A propos de vous...</legend> 	
-		<select name="sexe" id="sexe">
-  		 <option value="">Vous êtes :</option>
-                 <option value="Homme">Homme</option>
- 		 <option value="Femme">Femme</option>
-		</select> 
-		<p>Fumez vous ? </p>
-	<input type="radio" name="Fumeur" id="oui" value="oui"><label for="oui">Oui</label>
-	<input type="radio" name="Fumeur" id="non" value="non" checked><label for="non">Non</label>
-	 <p>Utiliser vous un ordinateur ? </p>
-	<input type="radio" name="Ordinateur" id="ooui" value="oui"><label for="ooui">Oui</label>
-	<input type="radio" name="Ordinateur" id="nnon" value="non" checked><label for="nnon">Non</label>
-	<p> Quel OS avez vous déjà utilisé / utilisé vous ? </p>
-	<label><input type="checkbox" name="OS" value="Windows">Windows</label>
-	<label><input type="checkbox" name="OS" value="Linux">Linux</label>
-	<label><input type="checkbox" name="OS" value="Mac">Mac</label>
-	 <p>Avez vous déjà changé vous même des pièces votre ordinateur ? </p>
-	<input type="radio" name="Custom" id="oooui" value="oui"><label for="oooui">Oui</label>
-	<input type="radio" name="Custom" id="nnnon" value="non" checked><label for="nnnon">Non</label>
-	<p>Si oui, quels composants avez vous changer ?</p>
-	<textarea name="message" cols=30 rows=3 placeholder="Composants ?"></textarea>
-	<p><label for="Connection"> Quel type de connection à internet avez vous ?</label>
-<select name="Connection" id="Connection">
-<option value="Wi-Fi">Wi-Fi</option>
-<option value="Fibre">Fibre</option>
-<option value="Adsl">ADSL</option>
-<option value="Autre">Autre</option>
-</select></p>
- <p>Jouez vous en ligne ? </p>
-	<input type="radio" name="Jeux" id="youi" value="oui"><label for="youi">Oui</label>
-	<input type="radio" name="Jeux" id="ynon" value="non" checked><label for="ynon">Non</label>
-	<p><label for="Connection"> Quel type de jeux ?</label>
-<select name="Jeux" id="Jeux">
-<option value="MMORPG">MMORPG</option>
-<option value="Simulation">Jeux de Simulation</option>
-<option value="FPS">FPS</option>
-<option value="Course">Jeux de Course</option>
-</select></p>
-	<p>Connaissez vous le E-sport </p>
-	<input type="radio" name="Esport" id="ioui" value="oui"><label for="ioui">Oui</label>
-	<input type="radio" name="Esport" id="inon" value="non" checked><label for="inon">Non</label>
-	<p>Que pensez vous du E-sport ?</p>
-	<textarea name="message" cols=20 rows=2></textarea>
-	</fieldset>
+			</fieldset>
+			<fieldset><legend>A propos de vous...</legend> 	
+				<select name="sexe" id="sexe">
+				<option value="">Vous êtes :</option>
+				<option value="Homme">Homme</option>
+				<option value="Femme">Femme</option>
+				</select> 
+				
+				<p>Utiliser vous un ordinateur ? </p>
+				<input type="radio" name="Ordinateur" id="ooui" value="oui"><label for="ooui">Oui</label>
+				<input type="radio" name="Ordinateur" id="nnon" value="non" checked><label for="nnon">Non</label>
+				
+				<p> Quel OS avez vous déjà utilisé / utilisé vous ? </p>
+				<label><input type="checkbox" name="OS" value="Windows">Windows</label>
+				<label><input type="checkbox" name="OS" value="Linux">Linux</label>
+				<label><input type="checkbox" name="OS" value="Mac">Mac</label>
+				
+				<p>Avez vous déjà changé vous même des pièces votre ordinateur ? </p>
+				<input type="radio" name="Custom" id="oooui" value="oui"><label for="oooui">Oui</label>
+				<input type="radio" name="Custom" id="nnnon" value="non" checked><label for="nnnon">Non</label>
+				
+				<p>Si oui, quels composants avez vous changer ?</p>
+				<textarea name="message" cols=30 rows=3 placeholder="Composants ?"></textarea>
+				
+				<p><label for="Connection"> Quel type de connection à internet avez vous ?</label>
+				<select name="Connection" id="Connection">
+				<option value="Wi-Fi">Wi-Fi</option>
+				<option value="Fibre">Fibre</option>
+				<option value="Adsl">ADSL</option>
+				<option value="Autre">Autre</option>
+				</select></p>
+				
+				<p>Jouez vous en ligne ? </p>
+				<input type="radio" name="Jeux" id="youi" value="oui"><label for="youi">Oui</label>
+				<input type="radio" name="Jeux" id="ynon" value="non" checked><label for="ynon">Non</label>
+				
+				<p><label for="Connection"> Quel type de jeux ?</label>
+				<select name="Jeux" id="Jeux">
+				<option value="MMORPG">MMORPG</option>
+				<option value="Simulation">Jeux de Simulation</option>
+				<option value="FPS">FPS</option>
+				<option value="Course">Jeux de Course</option>
+				</select></p>
+				
+				<p>Connaissez vous le E-sport </p>
+				<input type="radio" name="Esport" id="ioui" value="oui"><label for="ioui">Oui</label>
+				<input type="radio" name="Esport" id="inon" value="non" checked><label for="inon">Non</label>
+				
+				<p>Que pensez vous du E-sport ?</p>
+				<textarea name="message" cols=20 rows=2></textarea>
+			</fieldset>
 	
-	<p><input type="submit" value="Valider">
-	<input type="reset" value="Effacer"></p>
-	</FORM>
+			<p><input type="submit" value="Valider">
+			<input type="reset" value="Effacer"></p>
+		</FORM>
+		</section>
 	</section>
   </body>
  </html>

@@ -1,47 +1,62 @@
-@media screen and (min-width: 1280px)
+@media screen and (min-width: 361px) and (max-width: 799px)
 {
-    #Table
+     #Table
 {
 background-color:#0B0B61;
-vertical-align:top;
-width:15%;
-padding-bottom:25em;
-margin-left:0.5em;
+margin-left:11em;
 padding-left:1em;
 border-radius:2em;
-padding-right:2em;
+padding-right:1em;
+display:inline-block;
+margin-bottom:1em;
+}
+#Table #Table1F nav ul li 
+{
+width:35%;
+display:inline-block;
+padding:1em 0em 1em 1em;
 
+}
+#Formu #Contenu 
+{
+margin-left:10em;
+padding:0em 5em 0em 5em;
+}
+
+#Table #Table1
+{
+width:35%;
+display:inline-block;
+vertical-align:top;
+padding-left:2em;
+}
+#Table #Table2
+{
+width:50%;
+display:inline-block;
+vertical-align:top;
+margin-left:2em;
 }
 
 #Contenu
 {
-width:70%;
-margin-left: 1em;
 padding:1em; 
 background-color:#6E56DA;
-padding:2em;
 border-radius:2em;
 font-family:Calibri;
-}
-
-#Formu #Contenu 
-{
-padding:0em 5em 0em 5em;
-margin-left:5em;
 }
 
 section
 {
 display: inline-block;
-
 }
 
 body
 {
 background-image:url("Frost.png");
 color : White;
-font-size:14pt;
-line-height:20pt;
+font-size:10pt;
+line-height:15pt;
 }
 
 table
@@ -51,7 +66,6 @@ background: #333333;
 border: 0.5em solid #333333;
 border-radius: 1em;
 font-family:sans-serif;
-margin-left:7em;
 }
 
 table tr td
@@ -74,7 +88,6 @@ margin-bottom:1em;
 background-color:#7517B8;
 padding:1em;
 border-radius:1em;
-width:35%;
 display:inline-block;
 } 
 
@@ -82,9 +95,7 @@ display:inline-block;
 {background-color:#6C3D76;
 padding:1em;
 border-radius:1em;
-width:30%;
-display:inline-block;
-margin-left:5em;
+margin-bottom:1em;
 }
 
 #Regle1
@@ -109,8 +120,10 @@ width:30%;
 vertical-align:top;
 }
 #profil
-{width : 50%;
+{width : 60%;
 margin-left:0em;}
+#profil img
+{width:100%;}
 
 #ParcoursProjet
 {
@@ -121,35 +134,33 @@ padding:0.5em;
 
 header
 {text-align:center;
-font-size:25pt;}
+font-size:15pt;
+line-height:40px;
+}
 
 #UE11
 {border:5px ridge black;
 padding:1em;
 margin:1em;
-width:20%;}
+}
 
 #UE12
 {border:5px ridge black;
 padding:1em;
 margin:1em;
-margin-left:15em;
 display:inline-block;
 vertical-align:top;
-width:20%;}
+}
 
 #Contenu h2
 {
 text-align:center;
-color:black;}
+color:black;
+line-height:15px;}
 
-#LogoIut 
+#LogoIut
 {vertical-align:top,center;
-margin-left:16em;
-width:100%
 }
-#LogoIut img
-{width:50%;}
 
 #Regle1 h4,#Regle2 h4
 {color:yellow;}
@@ -158,6 +169,4 @@ footer
 {background-color:#0404B4;
 padding-left:2em;}
 }
-
-
-
+}
